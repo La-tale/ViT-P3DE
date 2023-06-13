@@ -1,7 +1,7 @@
 # ViT-P3DE\*: Vision Transformer Based Multi-Camera Instance Association with Pseudo 3D Position Embeddings
 
 This repository contains the code of our **IJCAI 2023** paper (To be appear in IJCAI 2023).
->"ViT-P3DE\*: Vision Transformer Based Multi-Camera Instance Association with Pseudo 3D Position Embeddings
+>ViT-P3DE\*: Vision Transformer Based Multi-Camera Instance Association with Pseudo 3D Position Embeddings
 >
 >Minseok Seo, Hyuk-Jae Lee, Xuan Truong Nguyen.
 >
@@ -22,7 +22,8 @@ Let me know if there are any problems.
 
 ## 1. Setup
 ### Requirements
-This codes are tested under PyTorch v1.8 and torchvision v0.9 with a single NVIDIA A100 GPU (Ubuntu 18.04, NVIDIA-driver v510.47, CUDA v11.1).
+This codes are tested under PyTorch v1.8 and torchvision v0.9 with a single NVIDIA A100 GPU.
+(Ubuntu 18.04, NVIDIA-driver v510.47, CUDA v11.1)
 
 Python 3.7 is needed to use the KMSolver module provided in "src" folder.
 
@@ -65,7 +66,7 @@ Download the pretrained model from this [link](https://drive.google.com/drive/fo
 - TripletNet.pth : ViT-baseline framework with ViT-Tiny
 - TripletNet_cam_pos.pth : ViT-P3DE\* framework with ViT-Tiny
 
-This table presents quantitative results of proposed works evaluated on MessyTable
+This table presents quantitative results of proposed works' pretrained models evaluated on MessyTable
 
 | Framework | Backbone    | Param. | AP ↑ | FPR-95 ↓ | IPAA-100 ↑ |
 |-----------|-------------|--------|------|----------|------------|
@@ -171,7 +172,7 @@ python3 src/test.py --config_dir tripletnet_1gpu_all_pairs_vit_tiny_p3de \
 ~~~
 
 ## License
-Our contributions on codes are released under the MIT license. For the codes of the otehr works, refer to their repositories.
+Our contributions on codes are released under the MIT license. For the codes of the other works, refer to their repositories.
 
 ## Contact
 For questions about our paper or code, please contact Minseok Seo. 
