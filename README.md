@@ -16,7 +16,7 @@ We'd like to thank the authors providing the codes.
 Since this repository is managed/verified by myself, there may be some parts not fully checked in detail when re-organizing the codes for publication.
 Let me know if there are any problems.
 
-## 0. Citation (To be appear)
+## 0. Citation
 ```
 @inproceedings{DBLP:conf/ijcai/SeoLN23,
     author       = {Minseok Seo and
