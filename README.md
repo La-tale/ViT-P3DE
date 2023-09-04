@@ -18,6 +18,24 @@ Let me know if there are any problems.
 
 ## 0. Citation (To be appear)
 ```
+@inproceedings{DBLP:conf/ijcai/SeoLN23,
+    author       = {Minseok Seo and
+        Hyuk{-}Jae Lee and
+            Xuan Truong Nguyen},
+    title        = {ViT-P3DE{\({_\ast}\)}: Vision Transformer Based Multi-Camera Instance
+        Association with Pseudo 3D Position Embeddings},
+    booktitle    = {Proceedings of the Thirty-Second International Joint Conference on
+        Artificial Intelligence, {IJCAI} 2023, 19th-25th August 2023, Macao,
+        SAR, China},
+    pages        = {1340--1350},
+    publisher    = {ijcai.org},
+    year         = {2023},
+    url          = {https://doi.org/10.24963/ijcai.2023/149},
+    doi          = {10.24963/ijcai.2023/149},
+    timestamp    = {Mon, 28 Aug 2023 17:23:07 +0200},
+    biburl       = {https://dblp.org/rec/conf/ijcai/SeoLN23.bib},
+    bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
 ```
 
 ## 1. Setup
