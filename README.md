@@ -1,6 +1,6 @@
 # ViT-P3DE\*: Vision Transformer Based Multi-Camera Instance Association with Pseudo 3D Position Embeddings
 
-This repository contains the code of our **IJCAI 2023** paper (To be appear in IJCAI 2023).
+This repository contains the code of our **IJCAI 2023** paper.
 >ViT-P3DE\*: Vision Transformer Based Multi-Camera Instance Association with Pseudo 3D Position Embeddings
 >
 >Minseok Seo, Hyuk-Jae Lee, Xuan Truong Nguyen.
@@ -15,28 +15,6 @@ We'd like to thank the authors providing the codes.
 
 Since this repository is managed/verified by myself, there may be some parts not fully checked in detail when re-organizing the codes for publication.
 Let me know if there are any problems.
-
-## 0. Citation
-```
-@inproceedings{DBLP:conf/ijcai/SeoLN23,
-    author       = {Minseok Seo and
-        Hyuk{-}Jae Lee and
-            Xuan Truong Nguyen},
-    title        = {ViT-P3DE{\({_\ast}\)}: Vision Transformer Based Multi-Camera Instance
-        Association with Pseudo 3D Position Embeddings},
-    booktitle    = {Proceedings of the Thirty-Second International Joint Conference on
-        Artificial Intelligence, {IJCAI} 2023, 19th-25th August 2023, Macao,
-        SAR, China},
-    pages        = {1340--1350},
-    publisher    = {ijcai.org},
-    year         = {2023},
-    url          = {https://doi.org/10.24963/ijcai.2023/149},
-    doi          = {10.24963/ijcai.2023/149},
-    timestamp    = {Mon, 28 Aug 2023 17:23:07 +0200},
-    biburl       = {https://dblp.org/rec/conf/ijcai/SeoLN23.bib},
-    bibsource    = {dblp computer science bibliography, https://dblp.org}
-}
-```
 
 ## 1. Setup
 ### Requirements
@@ -188,6 +166,28 @@ python3 src/test.py --config_dir tripletnet_1gpu_all_pairs_vit_tiny_p3de \
 --load_features \
 --eval_by_subncls
 ~~~
+
+## 0. Citation
+```
+@inproceedings{DBLP:conf/ijcai/SeoLN23,
+    author       = {Minseok Seo and
+        Hyuk{-}Jae Lee and
+            Xuan Truong Nguyen},
+    title        = {ViT-P3DE{\({_\ast}\)}: Vision Transformer Based Multi-Camera Instance
+        Association with Pseudo 3D Position Embeddings},
+    booktitle    = {Proceedings of the Thirty-Second International Joint Conference on
+        Artificial Intelligence, {IJCAI} 2023, 19th-25th August 2023, Macao,
+        SAR, China},
+    pages        = {1340--1350},
+    publisher    = {ijcai.org},
+    year         = {2023},
+    url          = {https://doi.org/10.24963/ijcai.2023/149},
+    doi          = {10.24963/ijcai.2023/149},
+    timestamp    = {Mon, 28 Aug 2023 17:23:07 +0200},
+    biburl       = {https://dblp.org/rec/conf/ijcai/SeoLN23.bib},
+    bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+```
 
 ## License
 Our contributions on codes are released under the MIT license. For the codes of the other works, refer to their repositories.
