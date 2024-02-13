@@ -167,7 +167,7 @@ python3 src/test.py --config_dir tripletnet_1gpu_all_pairs_vit_tiny_p3de \
 --eval_by_subncls
 ~~~
 
-## 0. Citation
+## 4. Citation
 ```
 @inproceedings{DBLP:conf/ijcai/SeoLN23,
     author       = {Minseok Seo and
